@@ -1,4 +1,6 @@
 import React, { Fragment, useState } from "react";
+import { TodoForm } from "../components/TodoForm";
+import { TodoList } from "../components/TodoList";
 import { infTodo } from "../interfaces";
 
 export const Todo: React.FC = () => {
@@ -27,9 +29,12 @@ export const Todo: React.FC = () => {
 
   return (
     <Fragment>
-
+      <TodoForm addTusk={addTodo} />
+      <TodoList
+        todos={todos}
+        onToggle={onToggleTodo}
+        onRemove={removeTodo}
+      />
     </Fragment>
   )
 }
-
-// export default Todo;
