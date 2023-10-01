@@ -1,5 +1,5 @@
 export interface infTodo {
   title: string
-  id: number
+  id: string
   completed: boolean
 }

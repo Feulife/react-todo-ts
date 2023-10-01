@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: row; 
+}
+
+.textInput {
+  border-radius: 8px;
+  background-color: #262626;
+  border: 1px solid 0D0D0D;
+  padding-left: 1rem;
+  color: #F2F2F2;
+  font-size: calc(10px + 1vmin);
+}
+
+.textInput::placeholder {
+  color: #808080;
+}

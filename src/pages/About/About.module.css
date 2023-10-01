@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 736px;
+  margin: 5rem auto;
+}
+
+h2 {
+  color: #f5f5dc;
+}
+
+.script {
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #808080;
+  margin: 5rem auto;
+}
+
+button {
+  cursor: pointer;
+  background: #808080;
+  color: #0D0D0D;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 8px;
+  font-size: calc(7px + 1vmin);
+  font-weight: bold;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
+  transition: background 0.1s;
+}
+
+button:hover {
+  background: #2e8b57;
+}

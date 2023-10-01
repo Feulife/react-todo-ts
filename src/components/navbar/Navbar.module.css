@@ -1,0 +1,39 @@
+.navbar {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between !important;
+  align-items: center !important;
+  background: #0D0D0D;
+  height: 5rem;
+  margin: auto;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 0 1rem;
+}
+
+.title {
+  justify-content: flex-start;
+  color: #1E6F9F;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: #4EA8DE;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  color: #1E6F9F;
+  text-decoration: none;
+}
+
+.about:hover {
+  color: #4EA8DE;
+}

@@ -1,0 +1,17 @@
+.createNew {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;  
+}
+
+.list {
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.notadd {
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #808080;
+}

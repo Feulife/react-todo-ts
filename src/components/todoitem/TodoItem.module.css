@@ -1,0 +1,42 @@
+.todoItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1rem;
+  background: #1e1e1e;
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.todoItem:hover {
+  background: #262626;
+  border: 1px solid #333333;
+}
+
+span {
+  flex-grow: 1;
+  font-size: calc(8px + 2vmin);
+  text-align: justify;  
+  word-wrap: break-word;
+  min-width: 0;
+  color: #f5f5dc;
+}
+
+.completeTask:hover {
+ cursor: pointer;
+}
+
+.toggled {
+  text-decoration-line: line-through;
+  text-decoration-color: #808080 !important;
+  color: #808080;
+}
+
+.remove {
+  cursor: pointer;
+  color: #808080;
+}
+
+.remove:hover {
+  color: #E25858;
+}
